@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulex - Guia de Medicação</title>
+    <style>
+        body { font-family: sans-serif; background-color: #f0f2f5; padding: 15px; }
+        .container { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #0056b3; font-size: 2.4rem; margin-bottom: 5px; }
+        .badge { display: inline-block; background: #e7f3ff; color: #0056b3; padding: 5px 12px; border-radius: 20px; font-weight: bold; }
+        h2 { font-size: 1.6rem; color: #333; margin-top: 25px; }
+        p { font-size: 1.4rem; color: #444; line-height: 1.5; } /* Fonte grande para acessibilidade [cite: 96] */
+        .alerta { background-color: #fff4e5; border-left: 6px solid #ffa117; padding: 15px; margin-top: 20px; }
+        button { background-color: #0056b3; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 1.2rem; margin-top: 20px; }
+        button:hover { background-color: #004494; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">BULEX</span>
+        <h1>{{ med.nome }}</h1>
+        <!--<small>Tipo: {{ med.tipo }}</small> -->
+
+        <section>
+            <h2>🤔 Para que serve?</h2>
+            <p>{{ med.finalidade }}</p>
+        </section>
+
+        <section>
+            <h2>⏰ Como tomar?</h2>
+            <p>{{ med.como_tomar }}</p>
+        </section>
+
+        <section class="alerta">
+            <h2>⚠️ Atenção (Sinais de Alerta)</h2>
+            <p>{{ med.alerta }}</p>
+        </section>
+
+        <section>
+            <button>Acesse a bula completa aqui.</button>
+        </section>
+    </div>
+</body>
+</html>
