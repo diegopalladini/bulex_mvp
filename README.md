@@ -8,7 +8,7 @@ Protótipo funcional de um aplicativo de leitura de bulas de medicamentos via QR
 
 **Persona:** Sr. João, 67 anos, hipertenso, dificuldade de leitura de textos pequenos.
 
-**Problema:** Bulas de medicamentos são difíceis de ler — letra pequena, linguagem técnica, informações desorganizadas.
+**Problema:** Bulas de medicamentos são difíceis de ler (letra pequena, linguagem técnica, informações desorganizadas).
 
 **Solução:** O usuário escaneia o QR Code da embalagem e recebe as informações do medicamento de forma clara, acessível e com tipografia ampliada.
 
@@ -77,7 +77,8 @@ uvicorn main:app --reload
 ```
 
 Acesse no navegador: **http://127.0.0.1:8000**
-ou na web: **https://bulex-mvp.onrender.com**
+
+(ou na web: **https://bulex-mvp.onrender.com**)
 
 ---
 
