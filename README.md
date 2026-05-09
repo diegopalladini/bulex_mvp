@@ -117,3 +117,24 @@ Acesse no navegador: **http://127.0.0.1:8000**
 - Este é um protótipo funcional. A leitura de QR Code é simulada por um campo de entrada manual de ID.
 - O banco de dados é criado automaticamente na primeira execução via `lifespan` do FastAPI.
 - Fontes grandes e layout simplificado foram adotados intencionalmente para garantir acessibilidade (persona Sr. João).
+
+## 🧪 Prova de Conceito (PoC)
+
+**Objetivo**  
+Validar a viabilidade de um sistema que permita o acesso a bulas de medicamentos de forma simplificada e acessível, a partir da leitura de um identificador (simulando QR Code).
+
+**Risco Técnico**  
+O principal risco técnico é garantir que o sistema consiga recuperar e exibir corretamente informações dos medicamentos de forma clara e legível para usuários com dificuldades de leitura.
+
+**Hipótese**  
+É possível exibir informações de medicamentos de forma mais acessível que a bula tradicional, melhorando a experiência do usuário.
+
+**Resultados**  
+- A aplicação foi capaz de recuperar e exibir corretamente os dados dos medicamentos cadastrados.  
+- O tempo de resposta da aplicação é imediato (inferior a 1 segundo).  
+- A interface apresentou melhor legibilidade em comparação com as bulas tradicionais.
+
+**Limitações**  
+- A leitura de QR Code ainda é simulada por um campo de entrada manual.  
+- Base de dados reduzida (apenas 3 medicamentos).  
+- Não houve testes com usuários reais.
