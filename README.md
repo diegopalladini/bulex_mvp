@@ -2,6 +2,8 @@
 
 Protótipo funcional de um aplicativo de leitura de bulas de medicamentos via QR Code, desenvolvido como Prova de Conceito (PoC) para a disciplina de Projeto Integrador, do curso de Análise e Desenvolvimento de Sistemas.
 
+Vídeo de apresentação do Bulex: https://youtube.com/shorts/VB7UIOA00hM
+
 ---
 
 ## 🎯 Jornada do Usuário
