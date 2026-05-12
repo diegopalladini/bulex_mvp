@@ -1,8 +1,19 @@
 # 💊 Bulex MVP
 
-Protótipo funcional de um aplicativo de leitura de bulas de medicamentos via QR Code, desenvolvido como Prova de Conceito (PoC) para a disciplina de Projeto Integrador, do curso de Análise e Desenvolvimento de Sistemas.
+Protótipo funcional de um aplicativo de leitura de bulas de medicamentos via QR Code, desenvolvido como Prova de Conceito (PoC) para a disciplina de Projeto Integrador, do curso de Análise e Desenvolvimento de Sistemas do Senac.
 
 Vídeo de apresentação do Bulex: https://youtube.com/shorts/VB7UIOA00hM
+
+
+```
+# GRUPO 06
+├── Amaury Serpa Santos Neto
+├── Diego Paladini Machado
+├── Diogo Oliveira Rodrigues
+├── Erika Kívia Santos Barbosa
+├── Murilo Luzzi Do Couto
+├── Ricardo Bertoldo
+```
 
 ---
 
