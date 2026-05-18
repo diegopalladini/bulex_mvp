@@ -129,7 +129,7 @@ Acesse no navegador: **http://127.0.0.1:8000**
 - O banco de dados é criado automaticamente na primeira execução via `lifespan` do FastAPI.
 - Fontes grandes e layout simplificado foram adotados intencionalmente para garantir acessibilidade (persona Sr. João).
 
-## 🧪 Prova de Conceito (PoC)
+## 🧪 Prova de Conceito (POC)
 
 **Objetivo**  
 Validar a viabilidade de um sistema que permita o acesso a bulas de medicamentos de forma simplificada e acessível, a partir da leitura de um identificador (simulando QR Code).
