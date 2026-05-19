@@ -17,9 +17,16 @@ def iniciar_banco():
             )
         ''')
         medicamentos_iniciais = [
-            (1, 'Losartana Potássica', 'Tratamento de pressão alta.', '1 comprimido pela manhã.', 'Cuidado com tonturas ao levantar.'),
-            (2, 'Amoxicilina', 'Tratamento de infecções.', '1 cápsula a cada 8 horas.', 'Atenção a manchas vermelhas na pele.'),
-            (3, 'Dipirona', 'Dores de cabeça e cefaléias.', '1 cápsula a cada 6 horas.', 'Atenção a alergias.')
+            (1, 'Losartana Potássica', 'Tratamento de pressão alta (hipertensão).', '1 comprimido de 50mg pela manhã.', 'Cuidado com tonturas ao levantar. Beba bastante água.'),
+            (2, 'Amoxicilina', 'Tratamento de infecções bacterianas.', '1 cápsula de 500mg a cada 8 horas.', 'Atenção a reações alérgicas. Não suspenda antes de terminar.'),
+            (3, 'Dipirona', 'Alívio de dores e febre.', '1 comprimido de 500mg a cada 6 horas.', 'Evite em caso de alergia. Máximo 4g por dia.'),
+            (4, 'Metformina', 'Controle do diabetes tipo 2.', '1 comprimido de 500mg com as refeições (1-3x ao dia).', 'Pode causar enjoo. Não usar em caso de insuficiência renal.'),
+            (5, 'Atenolol', 'Tratamento de pressão alta e problemas cardíacos.', '1 comprimido de 50mg pela manhã.', 'Não pare o tratamento abruptamente. Pode causar falta de ar.'),
+            (6, 'Sinvastatina', 'Redução de colesterol no sangue.', '1 comprimido de 20mg à noite.', 'Evite álcool em excesso. Dor muscular requer avaliação.'),
+            (7, 'Omeprazol', 'Proteção do estômago e refluxo gástrico.', '1 cápsula de 20mg pela manhã, antes das refeições.', 'Tomar 30 minutos antes da primeira refeição.'),
+            (8, 'Paracetamol', 'Alívio de dor e febre.', '1 comprimido de 500mg a cada 6 horas.', 'Máximo 4g por dia. Cuidado com overdose.'),
+            (9, 'Tramadol', 'Alívio de dor moderada a intensa.', '1 comprimido de 50mg a cada 6-8 horas conforme necessário.', 'Pode causar sonolência. Não dirija após tomar.'),
+            (10, 'Ranitidina', 'Redução de ácido estomacal (esofagite/úlcera).', '1 comprimido de 150mg de 12 em 12 horas.', 'Tome 30 minutos antes das refeições. Evite alimentos gordurosos.')
         ]
         cursor.executemany('INSERT OR REPLACE INTO medicamentos VALUES (?,?,?,?,?)', medicamentos_iniciais)
         conn.commit()

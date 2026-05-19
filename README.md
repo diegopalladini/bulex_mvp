@@ -116,10 +116,17 @@ Acesse no navegador: **http://127.0.0.1:8000**
 | `como_tomar` | TEXT | Posologia |
 | `alerta` | TEXT | Sinais de alerta / efeitos colaterais |
 
-**Dados de teste incluídos:**
-- ID 1 → Losartana Potássica
-- ID 2 → Amoxicilina
-- ID 3 → Dipirona
+**Dados de teste incluídos (10 medicamentos):**
+- ID 1 → Losartana Potássica (hipertensão)
+- ID 2 → Amoxicilina (infecções)
+- ID 3 → Dipirona (dor/febre)
+- ID 4 → Metformina (diabetes tipo 2)
+- ID 5 → Atenolol (pressão alta/cardíaco)
+- ID 6 → Sinvastatina (colesterol)
+- ID 7 → Omeprazol (problemas estomacais)
+- ID 8 → Paracetamol (dor/febre)
+- ID 9 → Tramadol (dor moderada/intensa)
+- ID 10 → Ranitidina (refluxo gástrico/úlcera)
 
 ---
 
@@ -147,5 +154,5 @@ O principal risco técnico é garantir que o sistema consiga recuperar e exibir 
 
 **Limitações**  
 - A leitura de QR Code ainda é simulada por um campo de entrada manual.  
-- Base de dados reduzida (apenas 3 medicamentos).  
+- Base de dados expandida com 10 medicamentos comuns, mas pode ser ampliada conforme necessário.  
 - Não houve testes com usuários reais.
