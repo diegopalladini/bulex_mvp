@@ -63,7 +63,7 @@ bulex_mvp/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/bulex_mvp.git
+git clone https://github.com/diegopalladini/bulex_mvp.git
 cd bulex_mvp
 
 # Crie e ative o ambiente virtual
